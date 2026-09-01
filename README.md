@@ -93,7 +93,7 @@ quickshell/
    gcc scripts/system-status/memproc.c -o ~/.rq-scripts/system-status/memProc -lm
    ```
    Dependências: `gcc`, e em tempo de execução `curl` (para o IP externo).
-5. Dependências gerais: `niri`, `quickshell` (com o plugin `Niri 0.1`), `fuzzel`, `swaybg`,
+5. Dependências gerais: `niri`, `quickshell` (com o plugin [Niri 0.1](https://github.com/imiric/qml-niri)), `fuzzel`, `swaybg`,
    `swaylock`, `xwayland-satellite`, PipeWire/WirePlumber, `brightnessctl`, `playerctl`,
    fonte **Nerd Font** (JetBrainsMono / CaskaydiaCove) para os ícones da barra.
 
