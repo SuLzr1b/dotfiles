@@ -1,0 +1,20 @@
+# Binários compilados dos scripts em C
+scripts/eip/externalIp
+scripts/system-status/cpuProc
+scripts/system-status/memProc
+*.o
+*.out
+
+# Arquivos de estado gerados em runtime pelos scripts (não fazem parte do repo)
+.rq-scripts/
+
+# Editores
+.vscode/
+.zed/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
